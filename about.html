@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Our College | MCA College Website | Master of Computer Applications Demo</title>
+  <meta name="description" content="Explore a modern MCA college website demo featuring computer applications, programming, artificial intelligence, data science, admissions, placements, and campus life in India.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="About Our College | MCA College Website">
+  <meta property="og:description" content="Explore a modern MCA college website demo featuring computer applications, programming, artificial intelligence, data science, admissions, placements, and campus life in India.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/about-campus.webp">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- Top Demo Announcement Bar -->
+  <div class="top-demo-bar">
+    <div class="container top-demo-bar-inner">
+      <div class="top-demo-notice">
+        <span class="top-demo-pill">Demo Website</span>
+        <span>Illustrative MCA College Website Template — Generic Academic Demonstration Content Only</span>
+      </div>
+      <div class="top-demo-links">
+        <span>Phone: 0000000000</span>
+        <span>Email: demo@example.com</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Header & Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="MCA College Home">
+        <div class="brand-icon-box" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3L2 8l10 5 10-5-10-5z"/>
+            <path d="M6 10.5v5.5c0 1.8 2.7 3.5 6 3.5s6-1.7 6-3.5v-5.5"/>
+            <path d="M22 8v6"/>
+            <circle cx="12" cy="8" r="1.2" fill="#DDF4FF" stroke="none"/>
+          </svg>
+        </div>
+        <div class="brand-text-wrap">
+          <span class="brand-title">MCA COLLEGE</span>
+          <span class="brand-subtitle">Computer Applications</span>
+        </div>
+      </a>
+
+            <!-- Center Section: Clean Navigation with Dropdowns -->
+      <nav class="main-nav" id="mainNav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+
+          <!-- Academics Dropdown -->
+          <li class="nav-item dropdown">
+            <a href="mca-program.html" class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+              <span>Academics</span>
+              <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </a>
+            <ul class="nav-dropdown-menu">
+              <li><a href="mca-program.html" class="dropdown-link">MCA Program</a></li>
+              <li><a href="specializations.html" class="dropdown-link">Specializations</a></li>
+              <li><a href="student-projects.html" class="dropdown-link">Student Projects</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="admissions.html" class="nav-link">Admissions</a>
+          </li>
+
+          <!-- Campus & About Dropdown -->
+          <li class="nav-item dropdown">
+            <a href="about.html" class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+              <span>Explore</span>
+              <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </a>
+            <ul class="nav-dropdown-menu">
+              <li><a href="about.html" class="dropdown-link">About Us</a></li>
+              <li><a href="placements.html" class="dropdown-link">Placements</a></li>
+              <li><a href="campus-life.html" class="dropdown-link">Campus Life</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#student-portal" class="portal-link" data-demo-modal data-demo-title="Student Portal (Demo Link)" data-demo-desc="This is a frontend demonstration link for the Student Portal. In an active institutional deployment, students log in here to access course materials, lab schedules, attendance, and academic announcements.">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          <span>Student Portal</span>
+        </a>
+        <a href="admissions.html#enquiry-form" class="btn btn-primary btn-sm">Apply Now</a>
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Hero Banner -->
+    <section class="page-banner">
+      <div class="container page-banner-inner">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="breadcrumb-sep">/</span>
+          <span>About Our College</span>
+        </nav>
+        <h1>ABOUT OUR COLLEGE</h1>
+        <p>Dedicated to advancing computer applications education, software engineering excellence, analytical problem-solving, and technology innovation.</p>
+      </div>
+    </section>
+
+    <!-- About Our College Main Section -->
+    <section class="section">
+      <div class="container about-grid">
+        <div class="about-image-wrap reveal">
+          <div class="about-main-img">
+            <img src="assets/images/about-campus.webp" alt="Modern computer science classroom and collaborative campus environment">
+          </div>
+          <div class="about-experience-badge">
+            <strong>MCA Focus</strong>
+            <span>Structured academic &amp; laboratory environment for technology learners.</span>
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>INSTITUTIONAL OVERVIEW</span>
+          </div>
+          <h2 class="section-title">Empowering the Next Generation of Technology Professionals</h2>
+          <p class="section-desc">Computer applications and information technology continue to shape the modern world. A strong MCA learning environment helps students develop programming expertise, technical knowledge, analytical thinking, and practical software development skills.</p>
+
+          <div class="mv-cards">
+            <div class="mv-card">
+              <h3>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                <span>Mission</span>
+              </h3>
+              <p>To create an engaging learning environment that promotes technical knowledge, innovation, research, and professional development.</p>
+            </div>
+
+            <div class="mv-card">
+              <h3>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                <span>Vision</span>
+              </h3>
+              <p>To prepare future technology professionals capable of solving real-world problems through computing and innovation.</p>
+            </div>
+          </div>
+
+          <div class="core-values-wrap">
+            <div class="core-values-title">Core Values</div>
+            <div class="core-values-list">
+              <span class="value-pill">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Technical Excellence
+              </span>
+              <span class="value-pill">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Innovation
+              </span>
+              <span class="value-pill">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Integrity
+              </span>
+              <span class="value-pill">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Collaboration
+              </span>
+              <span class="value-pill">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Continuous Learning
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Animated Statistics Section -->
+    <section class="stats-section">
+      <div class="container">
+        <div class="stats-top-bar">
+          <div>
+            <span class="eyebrow"><span class="eyebrow-dot"></span> Academic Overview</span>
+            <h2 style="font-size: 1.5rem; margin-top: 0.25rem;">Illustrative Institutional Highlights</h2>
+          </div>
+          <div class="demo-badge-note">
+            <span>Sample Demonstration Figures Only</span>
+          </div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card reveal">
+            <div class="stat-number-wrap"><span data-counter="15">15</span><span class="stat-suffix">+</span></div>
+            <div class="stat-label">Years of Academic Excellence</div>
+            <span class="stat-tag">[Sample Demonstration Figure]</span>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-number-wrap"><span data-counter="20">20</span><span class="stat-suffix">+</span></div>
+            <div class="stat-label">Technology Learning Modules</div>
+            <span class="stat-tag">[Sample Demonstration Figure]</span>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-number-wrap"><span data-counter="500">500</span><span class="stat-suffix">+</span></div>
+            <div class="stat-label">Student Community</div>
+            <span class="stat-tag">[Sample Demonstration Figure]</span>
+          </div>
+          <div class="stat-card reveal">
+            <div class="stat-number-wrap"><span data-counter="50">50</span><span class="stat-suffix">+</span></div>
+            <div class="stat-label">Practical Learning Projects</div>
+            <span class="stat-tag">[Sample Demonstration Figure]</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Our College -->
+    <section class="section bg-light">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> WHY CHOOSE OUR COLLEGE</div>
+          <h2 class="section-title">Learn. Build. Innovate. Succeed.</h2>
+          <p class="section-desc">Key pillars of our computer applications learning environment.</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card reveal">
+            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg></div>
+            <h3>Industry-Oriented Learning</h3>
+            <p>Curriculum concepts aligned with contemporary software architecture, agile workflows, and enterprise application standards.</p>
+          </div>
+          <div class="feature-card reveal">
+            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+            <h3>Practical Programming Experience</h3>
+            <p>Intensive laboratory hours dedicated to data structures, algorithm design, and multi-language code implementation.</p>
+          </div>
+          <div class="feature-card reveal">
+            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+            <h3>Modern Computer Laboratories</h3>
+            <p>Dedicated computing clusters for full-stack development, relational databases, network simulation, and AI research.</p>
+          </div>
+          <div class="feature-card reveal">
+            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div>
+            <h3>Experienced Academic Mentors</h3>
+            <p>Structured guidance from academic mentors specializing in core computer science and emerging technology domains.</p>
+          </div>
+          <div class="feature-card reveal">
+            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg></div>
+            <h3>Project-Based Learning</h3>
+            <p>End-to-end software development projects that build system design, database modeling, and deployment proficiency.</p>
+          </div>
+          <div class="feature-card reveal">
+            <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div>
+            <h3>Career Development Support</h3>
+            <p>Comprehensive preparation including coding drills, resume workshops, mock interviews, and communication skill sessions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Faculty Section -->
+    <section class="section" id="faculty">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> FACULTY SECTION</div>
+          <h2 class="section-title">Learn From Academic and Technology Mentors</h2>
+          <p class="section-desc">Fictional demonstration faculty profile cards illustrating mentorship across core MCA computing subjects.</p>
+          <div class="demo-badge-note">
+            <span>Demonstration Content Only: Generic identifiers and abstract avatars are used; no real faculty identities are represented.</span>
+          </div>
+        </div>
+
+        <div class="faculty-grid">
+          <article class="faculty-card reveal">
+            <div class="faculty-avatar" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <span class="faculty-demo-tag">Demo Profile 01</span>
+            <h3>Faculty Member 01 – Programming</h3>
+            <div class="faculty-role">Academic Designation: Senior Mentor (Demo)</div>
+            <p class="faculty-bio">Sample Biography: Focuses on C, C++, Java programming, data structures, and algorithmic problem-solving laboratories.</p>
+          </article>
+
+          <article class="faculty-card reveal">
+            <div class="faculty-avatar" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <span class="faculty-demo-tag">Demo Profile 02</span>
+            <h3>Faculty Member 02 – Data Science</h3>
+            <div class="faculty-role">Academic Designation: Academic Mentor (Demo)</div>
+            <p class="faculty-bio">Sample Biography: Guides students in statistical computing, Python analytics pipelines, data visualization, and predictive modeling.</p>
+          </article>
+
+          <article class="faculty-card reveal">
+            <div class="faculty-avatar" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <span class="faculty-demo-tag">Demo Profile 03</span>
+            <h3>Faculty Member 03 – Artificial Intelligence</h3>
+            <div class="faculty-role">Academic Designation: Academic Mentor (Demo)</div>
+            <p class="faculty-bio">Sample Biography: Specializes in machine learning algorithms, neural network architectures, and intelligent systems development.</p>
+          </article>
+
+          <article class="faculty-card reveal">
+            <div class="faculty-avatar" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <span class="faculty-demo-tag">Demo Profile 04</span>
+            <h3>Faculty Member 04 – Database Management</h3>
+            <div class="faculty-role">Academic Designation: Academic Mentor (Demo)</div>
+            <p class="faculty-bio">Sample Biography: Mentors students in relational database design, SQL optimization, transaction management, and backend systems.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Laboratories Preview -->
+    <section class="section bg-light">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> ACADEMIC INFRASTRUCTURE</div>
+          <h2 class="section-title">Learn Technology Through Practical Experience</h2>
+          <p class="section-desc">Illustrative demonstration laboratories supporting practical software engineering and computer science experimentation.</p>
+        </div>
+
+        <div class="labs-grid">
+          <article class="lab-card reveal">
+            <div class="lab-img-box">
+              <img src="assets/images/programming-classroom.webp" alt="Programming Laboratory">
+              <span class="lab-badge">Demo Facility</span>
+            </div>
+            <div class="lab-body">
+              <h3>Programming Laboratory</h3>
+              <p>Multi-language compiler and IDE environment for C, C++, Java, and Python programming modules.</p>
+            </div>
+          </article>
+          <article class="lab-card reveal">
+            <div class="lab-img-box">
+              <img src="assets/images/ai-lab.webp" alt="AI and Data Science Learning Environment">
+              <span class="lab-badge">Demo Facility</span>
+            </div>
+            <div class="lab-body">
+              <h3>AI and Data Science Learning Environment</h3>
+              <p>Workstations configured for machine learning notebooks, statistical analysis, and neural network simulations.</p>
+            </div>
+          </article>
+          <article class="lab-card reveal">
+            <div class="lab-img-box">
+              <img src="assets/images/library.webp" alt="Library and Study Spaces">
+              <span class="lab-badge">Demo Facility</span>
+            </div>
+            <div class="lab-body">
+              <h3>Digital Library &amp; Study Spaces</h3>
+              <p>Quiet study zones with computing textbooks, algorithm reference volumes, and digital research terminals.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" aria-label="MCA College Website">
+            <div class="brand-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3L2 8l10 5 10-5-10-5z"/>
+                <path d="M6 10.5v5.5c0 1.8 2.7 3.5 6 3.5s6-1.7 6-3.5v-5.5"/>
+                <path d="M22 8v6"/>
+                <circle cx="12" cy="8" r="1.2" fill="#DDF4FF" stroke="none"/>
+              </svg>
+            </div>
+            <div class="brand-text-wrap">
+              <span class="brand-title">MCA COLLEGE WEBSITE</span>
+              <span class="brand-subtitle">Technology Education Demo</span>
+            </div>
+          </a>
+          <p class="footer-desc">A modern, technology-focused Master of Computer Applications (MCA) educational website demonstration highlighting computer science education, programming, software development, and campus facilities.</p>
+          <div class="social-decorative-list" aria-label="Decorative Social Icons (Demo Only)">
+            <span class="social-deco-icon" title="Decorative Icon Only"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></span>
+            <span class="social-deco-icon" title="Decorative Icon Only"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></span>
+            <span class="social-deco-icon" title="Decorative Icon Only"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></span>
+            <span class="social-deco-icon" title="Decorative Icon Only"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg></span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Academic Links</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="mca-program.html">MCA Program</a></li>
+            <li><a href="specializations.html">Specializations</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Campus &amp; Careers</h4>
+          <ul class="footer-links">
+            <li><a href="placements.html">Placements</a></li>
+            <li><a href="student-projects.html">Student Projects</a></li>
+            <li><a href="campus-life.html">Campus Life</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Information (Demo)</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>Phone: 0000000000</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>Email: <a href="mailto:demo@example.com">demo@example.com</a></span>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Address: Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer-box">
+        <strong>Disclaimer:</strong> This is a fictional educational website demonstration. All institutional details, academic information, statistics, faculty profiles, student testimonials, placement information, and campus facilities are illustrative and do not represent an actual educational institution.
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 MCA College Website. Demo Website – All Rights Reserved.</span>
+        <span>Built with HTML5, CSS3 &amp; Vanilla JavaScript</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive Demo Feature Modal -->
+  <div class="demo-info-modal" id="demoInfoModal" aria-hidden="true" role="dialog" aria-labelledby="demoModalTitle">
+    <div class="demo-info-dialog">
+      <div class="eyebrow" style="margin-bottom: 0.75rem;"><span class="eyebrow-dot"></span> Interactive Demo Preview</div>
+      <h3 id="demoModalTitle" style="margin-bottom: 0.65rem;">Demonstration Feature</h3>
+      <p id="demoModalBody" style="margin-bottom: 1.5rem;">This interactive feature is part of the MCA College Website demonstration template.</p>
+      <div style="display: flex; justify-content: flex-end; gap: 0.75rem;">
+        <button type="button" class="btn btn-primary btn-sm" id="demoModalClose">Close Preview</button>
+      </div>
+    </div>
+  </div>
+
+  <button class="back-to-top" id="backToTop" aria-label="Scroll back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1958 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCA College Website | Master of Computer Applications Demo</title>
+  <meta name="description" content="Explore a modern MCA college website demo featuring computer applications, programming, artificial intelligence, data science, admissions, placements, and campus life in India.">
+  <meta name="keywords" content="MCA College Website, Master of Computer Applications, MCA Program India, Computer Applications Demo, AI, Data Science, Full Stack Development">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="MCA College Website | Master of Computer Applications Demo">
+  <meta property="og:description" content="Explore a modern MCA college website demo featuring computer applications, programming, artificial intelligence, data science, admissions, placements, and campus life in India.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/hero-campus.webp">
+
+  <!-- Google Fonts: Inter, Plus Jakarta Sans, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- Top Demo Announcement Bar -->
+  <div class="top-demo-bar">
+    <div class="container top-demo-bar-inner">
+      <div class="top-demo-notice">
+        <span class="top-demo-pill">Demo Website</span>
+        <span>Illustrative MCA College Website Template — Generic Academic Demonstration Content Only</span>
+      </div>
+      <div class="top-demo-links">
+        <span>Phone: 0000000000</span>
+        <span>Email: demo@example.com</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Header & Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <!-- Left Section: Generic Graduation Cap + Technology Symbol & MCA COLLEGE -->
+      <a href="index.html" class="brand-logo" aria-label="MCA College Home">
+        <div class="brand-icon-box" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3L2 8l10 5 10-5-10-5z"/>
+            <path d="M6 10.5v5.5c0 1.8 2.7 3.5 6 3.5s6-1.7 6-3.5v-5.5"/>
+            <path d="M22 8v6"/>
+            <circle cx="12" cy="8" r="1.2" fill="#DDF4FF" stroke="none"/>
+          </svg>
+        </div>
+        <div class="brand-text-wrap">
+          <span class="brand-title">MCA COLLEGE</span>
+          <span class="brand-subtitle">Computer Applications</span>
+        </div>
+      </a>
+
+                  <!-- Center Section: Clean Navigation with Dropdowns -->
+      <nav class="main-nav" id="mainNav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+
+          <!-- Academics Dropdown -->
+          <li class="nav-item dropdown">
+            <a href="mca-program.html" class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+              <span>Academics</span>
+              <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </a>
+            <ul class="nav-dropdown-menu">
+              <li><a href="mca-program.html" class="dropdown-link">MCA Program</a></li>
+              <li><a href="specializations.html" class="dropdown-link">Specializations</a></li>
+              <li><a href="student-projects.html" class="dropdown-link">Student Projects</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="admissions.html" class="nav-link">Admissions</a>
+          </li>
+
+          <!-- Campus & About Dropdown -->
+          <li class="nav-item dropdown">
+            <a href="about.html" class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+              <span>Explore</span>
+              <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </a>
+            <ul class="nav-dropdown-menu">
+              <li><a href="about.html" class="dropdown-link">About Us</a></li>
+              <li><a href="placements.html" class="dropdown-link">Placements</a></li>
+              <li><a href="campus-life.html" class="dropdown-link">Campus Life</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Right Section: Student Portal (demo link) & Apply Now CTA -->
+      <div class="header-actions">
+        <a href="#student-portal" class="portal-link" data-demo-modal data-demo-title="Student Portal (Demo Link)" data-demo-desc="This is a frontend demonstration link for the Student Portal. In an active institutional deployment, students log in here to access course materials, lab schedules, attendance, and academic announcements.">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          <span>Student Portal</span>
+        </a>
+        <a href="admissions.html#enquiry-form" class="btn btn-primary btn-sm">Apply Now</a>
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 5. HOMEPAGE HERO SECTION -->
+    <section class="hero-section">
+      <div class="hero-bg-grid" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>Master of Computer Applications (MCA)</span>
+          </div>
+          <h1 class="hero-title">Build Your Future in <span class="text-highlight">Technology</span> With MCA</h1>
+          <p class="hero-desc">Develop advanced computing knowledge, programming expertise, analytical thinking, and industry-ready skills through a modern Master of Computer Applications learning experience.</p>
+          <div class="hero-cta-group">
+            <a href="admissions.html#enquiry-form" class="btn btn-primary">
+              <span>Apply for Admission</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <a href="mca-program.html" class="btn btn-secondary">
+              <span>Explore MCA Program</span>
+            </a>
+          </div>
+          <div class="hero-tech-pills">
+            <span class="hero-tech-pills-label">Focus Areas:</span>
+            <span class="tech-pill">Software Dev</span>
+            <span class="tech-pill">Artificial Intelligence</span>
+            <span class="tech-pill">Data Science</span>
+            <span class="tech-pill">Cloud &amp; Security</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-image-frame">
+            <img src="assets/images/hero-campus.webp" alt="Modern Indian computer science college campus with students working on laptops in a contemporary technology learning environment">
+          </div>
+
+          <!-- Floating Information Cards -->
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. STATISTICS SECTION -->
+    <section class="stats-section" aria-label="Sample Demonstration Statistics">
+      <div class="container">
+        <div class="stats-top-bar">
+          <div>
+            <span class="eyebrow"><span class="eyebrow-dot"></span> Academic Overview</span>
+            <h2 style="font-size: 1.5rem; margin-top: 0.25rem;">Technology Education Snapshot</h2>
+          </div>
+          <div class="demo-badge-note">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+            <span>Note: All statistics below are sample demonstration figures for layout illustration.</span>
+          </div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-card reveal">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <div class="stat-number-wrap">
+              <span data-counter="15">15</span><span class="stat-suffix">+</span>
+            </div>
+            <div class="stat-label">Years of Academic Excellence</div>
+            <span class="stat-tag">[Sample Demonstration Figure]</span>
+          </div>
+
+          <div class="stat-card reveal">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <div class="stat-number-wrap">
+              <span data-counter="20">20</span><span class="stat-suffix">+</span>
+            </div>
+            <div class="stat-label">Technology Learning Modules</div>
+            <span class="stat-tag">[Sample Demonstration Figure]</span>
+          </div>
+
+          <div class="stat-card reveal">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div class="stat-number-wrap">
+              <span data-counter="500">500</span><span class="stat-suffix">+</span>
+            </div>
+            <div class="stat-label">Student Community</div>
+            <span class="stat-tag">[Sample Demonstration Figure]</span>
+          </div>
+
+          <div class="stat-card reveal">
+            <div class="stat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <div class="stat-number-wrap">
+              <span data-counter="50">50</span><span class="stat-suffix">+</span>
+            </div>
+            <div class="stat-label">Practical Learning Projects</div>
+            <span class="stat-tag">[Sample Demonstration Figure]</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. ABOUT OUR COLLEGE -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-image-wrap reveal">
+          <div class="about-main-img">
+            <img src="assets/images/about-campus.webp" alt="Modern computer science classroom and collaborative campus environment">
+          </div>
+          
+        </div>
+
+        <div class="about-content reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>ABOUT OUR COLLEGE</span>
+          </div>
+          <h2 class="section-title">Empowering the Next Generation of Technology Professionals</h2>
+          <p class="section-desc">Computer applications and information technology continue to shape the modern world. A strong MCA learning environment helps students develop programming expertise, technical knowledge, analytical thinking, and practical software development skills.</p>
+
+          <div class="mv-cards">
+            <div class="mv-card">
+              <h3>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                <span>Our Mission</span>
+              </h3>
+              <p>To create an engaging learning environment that promotes technical knowledge, innovation, research, and professional development.</p>
+            </div>
+
+            <div class="mv-card">
+              <h3>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                <span>Our Vision</span>
+              </h3>
+              <p>To prepare future technology professionals capable of solving real-world problems through computing and innovation.</p>
+            </div>
+          </div>
+
+          <div class="core-values-wrap">
+            <div class="core-values-title">Core Institutional Values</div>
+            <div class="core-values-list">
+              <span class="value-pill">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Technical Excellence
+              </span>
+              <span class="value-pill">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Innovation
+              </span>
+              <span class="value-pill">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Integrity
+              </span>
+              <span class="value-pill">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Collaboration
+              </span>
+              <span class="value-pill">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                Continuous Learning
+              </span>
+            </div>
+          </div>
+
+          <div style="margin-top: 2rem;">
+            <a href="about.html" class="btn btn-secondary">Learn More About Our College</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. MCA PROGRAM SECTION -->
+    <section class="section bg-light" id="mca-program">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>MCA PROGRAM</span>
+          </div>
+          <h2 class="section-title">Master of Computer Applications (MCA)</h2>
+          <p class="section-desc">A comprehensive postgraduate curriculum structured to build deep competency in core computer science principles, enterprise software architecture, and emerging technology paradigms.</p>
+          <div class="demo-badge-note">
+            <span>Illustrative Academic Content: Actual syllabus and curriculum depend on the institution and university.</span>
+          </div>
+        </div>
+
+        <!-- Program Overview Meta Cards -->
+        <div class="program-overview-bar reveal">
+          <div class="program-meta-card">
+            <div class="program-meta-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="program-meta-info">
+              <span>Typical Duration</span>
+              <strong>2 Years (4 Semesters)</strong>
+            </div>
+          </div>
+          <div class="program-meta-card">
+            <div class="program-meta-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            </div>
+            <div class="program-meta-info">
+              <span>Program Level</span>
+              <strong>Postgraduate Degree</strong>
+            </div>
+          </div>
+          <div class="program-meta-card">
+            <div class="program-meta-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <div class="program-meta-info">
+              <span>Pedagogy</span>
+              <strong>Theory + Lab + Capstone</strong>
+            </div>
+          </div>
+          <div class="program-meta-card">
+            <div class="program-meta-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            <div class="program-meta-info">
+              <span>Career Focus</span>
+              <strong>Software, AI &amp; Cloud</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- 12 Core Computing Subject Cards -->
+        <div class="subjects-grid">
+          <article class="subject-card reveal">
+            <div>
+              <div class="subject-card-top">
+                <div class="subject-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </div>
+                <span class="subject-code">CORE 01</span>
+              </div>
+              <h3>Programming in C and C++</h3>
+              <p>Foundations of structured and object-oriented programming, memory management, pointers, and system-level code design.</p>
+            </div>
+          </article>
+
+          <article class="subject-card reveal">
+            <div>
+              <div class="subject-card-top">
+                <div class="subject-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+                </div>
+                <span class="subject-code">CORE 02</span>
+              </div>
+              <h3>Java Programming</h3>
+              <p>Enterprise object-oriented programming, multithreading, collections framework, exception handling, and JVM architecture.</p>
+            </div>
+          </article>
+
+          <article class="subject-card reveal">
+            <div>
+              <div class="subject-card-top">
+                <div class="subject-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><terminal/><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+                </div>
+                <span class="subject-code">CORE 03</span>
+              </div>
+              <h3>Python Programming</h3>
+              <p>Rapid application scripting, functional programming constructs, automation libraries, and scientific computing packages.</p>
+            </div>
+          </article>
+
+          <article class="subject-card reveal">
+            <div>
+              <div class="subject-card-top">
+                <div class="subject-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                </div>
+                <span class="subject-code">CORE 04</span>
+              </div>
+              <h3>Data Structures and Algorithms</h3>
+              <p>Linear and non-linear data structures, graph and tree algorithms, asymptotic complexity analysis, and problem optimization.</p>
+            </div>
+          </article>
+
+          <article class="subject-card reveal">
+            <div>
+              <div class="subject-card-top">
+                <div class="subject-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                </div>
+                <span class="subject-code">CORE 05</span>
+              </div>
+              <h3>Database Management Systems</h3>
+              <p>Relational algebra, SQL query optimization, schema normalization, ACID transaction management, and NoSQL architectures.</p>
+            </div>
+          </article>
+
+          <article class="subject-card reveal">
+            <div>
+              <div class="subject-card-top">
+                <div class="subject-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/></svg>
+                </div>
+                <span class="subject-code">CORE 06</span>
+              </div>
+              <h3>Operating Systems</h3>
+              <p>Kernel architecture, process scheduling, concurrency control, deadlock handling, virtual memory, and Linux system internals.</p>
+            </div>
+          </article>
+
+          <article class="subject-card reveal">
+            <div>
+              <div class="subject-card-top">
+                <div class="subject-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                </div>
+                <span class="subject-code">CORE 07</span>
+              </div>
+              <h3>Computer Networks</h3>
+              <p>OSI and TCP/IP protocol suites, routing algorithms, socket programming, wireless networks, and packet security analysis.</p>
+            </div>
+          </article>
+
+          <article class="subject-card reveal">
+            <div>
+              <div class="subject-card-top">
+                <div class="subject-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                </div>
+                <span class="subject-code">CORE 08</span>
+              </div>
+              <h3>Software Engineering</h3>
+              <p>SDLC models, Agile and DevOps workflows, requirement analysis, UML system modeling, and automated quality assurance.</p>
+            </div>
+          </article>
+
+          <article class="subject-card reveal">
+            <div>
+              <div class="subject-card-top">
+                <div class="subject-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="2" y1="7" x2="22" y2="7"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                </div>
+                <span class="subject-code">CORE 09</span>
+              </div>
+              <h3>Web Technologies</h3>
+              <p>Modern HTML5, CSS3, JavaScript architectures, RESTful APIs, client-server communication, and responsive web engineering.</p>
+            </div>
+          </article>
+
+          <article class="subject-card reveal">
+            <div>
+              <div class="subject-card-top">
+                <div class="subject-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+                </div>
+                <span class="subject-code">CORE 10</span>
+              </div>
+              <h3>Cloud Computing</h3>
+              <p>Distributed cloud infrastructure, virtualization, container orchestration, microservices, and scalable deployment models.</p>
+            </div>
+          </article>
+
+          <article class="subject-card reveal">
+            <div>
+              <div class="subject-card-top">
+                <div class="subject-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a4 4 0 0 1 4 4v2a4 4 0 0 1-8 0V6a4 4 0 0 1 4-4z"/><path d="M16 14H8a4 4 0 0 0-4 4v2h16v-2a4 4 0 0 0-4-4z"/></svg>
+                </div>
+                <span class="subject-code">CORE 11</span>
+              </div>
+              <h3>Artificial Intelligence</h3>
+              <p>Heuristic search strategies, knowledge representation, natural language processing, and intelligent agent architectures.</p>
+            </div>
+          </article>
+
+          <article class="subject-card reveal">
+            <div>
+              <div class="subject-card-top">
+                <div class="subject-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                </div>
+                <span class="subject-code">CORE 12</span>
+              </div>
+              <h3>Machine Learning</h3>
+              <p>Supervised and unsupervised learning, regression models, classification trees, neural networks, and model evaluation.</p>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.75rem;">
+          <a href="mca-program.html" class="btn btn-primary">View Detailed MCA Curriculum Overview</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. MCA SPECIALIZATIONS AND TECHNOLOGY DOMAINS -->
+    <section class="section" id="specializations">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>TECHNOLOGY DOMAINS</span>
+          </div>
+          <h2 class="section-title">Explore Emerging Technology Domains</h2>
+          <p class="section-desc">Advance your computing capabilities across six high-impact technology focus areas designed to align classroom theory with modern software practices.</p>
+          <div class="demo-badge-note">
+            <span>Note: These are illustrative technology learning domains, not claims of formally approved university specializations.</span>
+          </div>
+        </div>
+
+        <div class="specializations-grid">
+          <!-- 1. Artificial Intelligence -->
+          <article class="spec-card reveal">
+            <div class="spec-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+            </div>
+            <h3>Artificial Intelligence</h3>
+            <p>Explore cognitive computing models, automated reasoning, deep learning architectures, and intelligent automation systems.</p>
+            <div class="spec-topics">
+              <span class="spec-topic-item">Machine Learning</span>
+              <span class="spec-topic-item">Neural Networks</span>
+              <span class="spec-topic-item">AI Applications</span>
+              <span class="spec-topic-item">Intelligent Systems</span>
+            </div>
+            <a href="specializations.html#ai-domain" class="link-arrow">
+              <span>Explore More</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <!-- 2. Data Science -->
+          <article class="spec-card reveal">
+            <div class="spec-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/><line x1="2" y1="20" x2="22" y2="20"/></svg>
+            </div>
+            <h3>Data Science</h3>
+            <p>Master quantitative data pipelines, large-scale statistical inference, visual storytelling, and predictive forecasting.</p>
+            <div class="spec-topics">
+              <span class="spec-topic-item">Data Analytics</span>
+              <span class="spec-topic-item">Statistical Computing</span>
+              <span class="spec-topic-item">Data Visualization</span>
+              <span class="spec-topic-item">Predictive Modelling</span>
+            </div>
+            <a href="specializations.html#data-science-domain" class="link-arrow">
+              <span>Explore More</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <!-- 3. Full Stack Development -->
+          <article class="spec-card reveal">
+            <div class="spec-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="14" y1="4" x2="10" y2="20"/></svg>
+            </div>
+            <h3>Full Stack Development</h3>
+            <p>Architect end-to-end web platforms combining responsive user interfaces, scalable server APIs, and distributed databases.</p>
+            <div class="spec-topics">
+              <span class="spec-topic-item">Frontend Development</span>
+              <span class="spec-topic-item">Backend Development</span>
+              <span class="spec-topic-item">Database Technologies</span>
+              <span class="spec-topic-item">Web Application Dev</span>
+            </div>
+            <a href="specializations.html#fullstack-domain" class="link-arrow">
+              <span>Explore More</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <!-- 4. Cybersecurity -->
+          <article class="spec-card reveal">
+            <div class="spec-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Cybersecurity</h3>
+            <p>Understand defensive security architecture, cryptographic protocols, vulnerability auditing, and resilient network defense.</p>
+            <div class="spec-topics">
+              <span class="spec-topic-item">Network Security</span>
+              <span class="spec-topic-item">Information Security</span>
+              <span class="spec-topic-item">Ethical Security Concepts</span>
+              <span class="spec-topic-item">Security Fundamentals</span>
+            </div>
+            <a href="specializations.html#cybersecurity-domain" class="link-arrow">
+              <span>Explore More</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <!-- 5. Cloud Computing -->
+          <article class="spec-card reveal">
+            <div class="spec-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+            </div>
+            <h3>Cloud Computing</h3>
+            <p>Design fault-tolerant cloud-native applications, virtualized compute clusters, and high-availability distributed systems.</p>
+            <div class="spec-topics">
+              <span class="spec-topic-item">Cloud Architecture</span>
+              <span class="spec-topic-item">Virtualization</span>
+              <span class="spec-topic-item">Distributed Systems</span>
+              <span class="spec-topic-item">Cloud Applications</span>
+            </div>
+            <a href="specializations.html#cloud-domain" class="link-arrow">
+              <span>Explore More</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <!-- 6. Mobile Application Development -->
+          <article class="spec-card reveal">
+            <div class="spec-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            </div>
+            <h3>Mobile Application Development</h3>
+            <p>Build performant mobile applications with intuitive touch interfaces, offline-first storage, and rigorous automated testing.</p>
+            <div class="spec-topics">
+              <span class="spec-topic-item">Android Development</span>
+              <span class="spec-topic-item">Mobile UI Design</span>
+              <span class="spec-topic-item">Application Programming</span>
+              <span class="spec-topic-item">Mobile App Testing</span>
+            </div>
+            <a href="specializations.html#mobile-domain" class="link-arrow">
+              <span>Explore More</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. WHY CHOOSE OUR COLLEGE? -->
+    <section class="section bg-light" id="why-choose-us">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>OUR COLLEGE ADVANTAGE</span>
+          </div>
+          <h2 class="section-title">Learn. Build. Innovate. Succeed.</h2>
+          <p class="section-desc">Our academic ecosystem is structured around hands-on coding, collaborative mentorship, and real-world software engineering workflows.</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+            </div>
+            <h3>Industry-Oriented Learning</h3>
+            <p>Academic modules designed to reflect modern software engineering standards, version control practices, and enterprise architectures.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3>Practical Programming Experience</h3>
+            <p>Dedicated coding hours every week focusing on algorithmic problem-solving, clean code principles, and debugging techniques.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3>Modern Computer Laboratories</h3>
+            <p>Well-equipped computing workspaces configured with development IDEs, database servers, and simulation environments.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Experienced Academic Mentors</h3>
+            <p>Supportive faculty guidance across core computer science subjects, research methodologies, and capstone project execution.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <h3>Project-Based Learning</h3>
+            <p>Transform theoretical concepts into functional web applications, database systems, and analytical dashboards each semester.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+            </div>
+            <h3>Career Development Support</h3>
+            <p>Structured preparation featuring technical mock interviews, aptitude drills, resume workshops, and presentation skills.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11. TECHNICAL LABORATORIES -->
+    <section class="section" id="laboratories">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>TECHNICAL INFRASTRUCTURE</span>
+          </div>
+          <h2 class="section-title">Learn Technology Through Practical Experience</h2>
+          <p class="section-desc">Hands-on experimentation is central to the MCA learning journey. Explore our specialized computing laboratories designed for code compilation, network simulation, and data modeling.</p>
+          <div class="demo-badge-note">
+            <span>Illustrative Demo Facilities: All laboratory visuals and descriptions below are sample demonstration representations.</span>
+          </div>
+        </div>
+
+        <div class="labs-grid">
+          <article class="lab-card reveal">
+            <div class="lab-img-box">
+              <img src="assets/images/programming-classroom.webp" alt="Programming Laboratory with students writing code on modern workstations">
+              <span class="lab-badge">Demo Facility 01</span>
+            </div>
+            <div class="lab-body">
+              <h3>Programming Laboratory</h3>
+              <p>Configured with multi-language compilers and IDEs for C, C++, Java, and Python algorithmic development and data structures practice.</p>
+            </div>
+          </article>
+
+          <article class="lab-card reveal">
+            <div class="lab-img-box">
+              <img src="assets/images/computer-lab.webp" alt="Computer Networks Laboratory with dual-monitor workstations">
+              <span class="lab-badge">Demo Facility 02</span>
+            </div>
+            <div class="lab-body">
+              <h3>Computer Networks Laboratory</h3>
+              <p>Dedicated environment for network topology simulation, packet analysis, socket programming, and Linux server administration.</p>
+            </div>
+          </article>
+
+          <article class="lab-card reveal">
+            <div class="lab-img-box">
+              <img src="assets/images/data-science-lab.webp" alt="Database Management Laboratory displaying relational schemas and analytics">
+              <span class="lab-badge">Demo Facility 03</span>
+            </div>
+            <div class="lab-body">
+              <h3>Database Management Laboratory</h3>
+              <p>Equipped with relational RDBMS servers and NoSQL clusters for SQL query tuning, PL/SQL scripting, and schema design.</p>
+            </div>
+          </article>
+
+          <article class="lab-card reveal">
+            <div class="lab-img-box">
+              <img src="assets/images/student-coding.webp" alt="Software Development Laboratory with students collaborating on full stack apps">
+              <span class="lab-badge">Demo Facility 04</span>
+            </div>
+            <div class="lab-body">
+              <h3>Software Development Laboratory</h3>
+              <p>Focused on full-stack web engineering, Git version control workflows, UML modeling, and automated software testing suites.</p>
+            </div>
+          </article>
+
+          <article class="lab-card reveal">
+            <div class="lab-img-box">
+              <img src="assets/images/ai-lab.webp" alt="AI and Data Science Learning Environment with neural network visualizations">
+              <span class="lab-badge">Demo Facility 05</span>
+            </div>
+            <div class="lab-body">
+              <h3>AI and Data Science Learning Environment</h3>
+              <p>High-performance computing environment supporting machine learning notebooks, statistical modeling, and visual analytics.</p>
+            </div>
+          </article>
+
+          <article class="lab-card reveal">
+            <div class="lab-img-box">
+              <img src="assets/images/campus-gallery-02.webp" alt="Project Development Workspace for collaborative student teams">
+              <span class="lab-badge">Demo Facility 06</span>
+            </div>
+            <div class="lab-body">
+              <h3>Project Development Workspace</h3>
+              <p>Collaborative innovation studio for sprint planning, architecture whiteboarding, and final-year capstone project integration.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 12 & 13. ADMISSION PROCESS & ELIGIBILITY -->
+    <section class="section bg-light" id="admissions">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>ADMISSIONS</span>
+          </div>
+          <h2 class="section-title">Your Journey Towards MCA Starts Here</h2>
+          <p class="section-desc">A clear, streamlined five-step illustrative admission workflow for prospective Master of Computer Applications students.</p>
+          <div class="demo-badge-note">
+            <span>Note: Admission procedures and eligibility criteria are illustrative. Actual requirements depend on the institution and applicable university regulations.</span>
+          </div>
+        </div>
+
+        <!-- Five-Step Admission Timeline -->
+        <div class="timeline-steps">
+          <div class="timeline-step reveal">
+            <span class="step-number">Step 01</span>
+            <h3>Submit Application</h3>
+            <p>Complete the online admission enquiry or application form with academic details and preferred learning domain.</p>
+          </div>
+
+          <div class="timeline-step reveal">
+            <span class="step-number">Step 02</span>
+            <h3>Application Review</h3>
+            <p>Admissions coordinators review submitted academic transcripts and undergraduate course documentation.</p>
+          </div>
+
+          <div class="timeline-step reveal">
+            <span class="step-number">Step 03</span>
+            <h3>Eligibility Assessment</h3>
+            <p>Verification of qualifying degree criteria and state/national MCA entrance test scores, where applicable.</p>
+          </div>
+
+          <div class="timeline-step reveal">
+            <span class="step-number">Step 04</span>
+            <h3>Personal Interaction</h3>
+            <p>Academic counseling session or personal interaction (if applicable) to align student goals with program tracks.</p>
+          </div>
+
+          <div class="timeline-step reveal">
+            <span class="step-number">Step 05</span>
+            <h3>Admission Confirmation</h3>
+            <p>Completion of document verification and seat confirmation formalities to begin your MCA academic journey.</p>
+          </div>
+        </div>
+
+        <!-- Dedicated Eligibility Section for Indian MCA Aspirants -->
+        <div class="eligibility-box reveal">
+          <div>
+            <span class="eyebrow"><span class="eyebrow-dot"></span> General Eligibility Overview</span>
+            <h3 style="font-size: 1.55rem; margin-bottom: 0.75rem;">Eligibility and Admission Requirements</h3>
+            <p>Below is general illustrative eligibility information for Indian MCA aspirants. Please note that specific admission rules and eligibility criteria can differ between institutions, states, and affiliating universities.</p>
+
+            <div class="eligibility-list">
+              <div class="eligibility-item">
+                <div class="eligibility-check">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div>
+                  <strong>Qualifying Undergraduate Degree:</strong> Bachelor's degree (such as BCA, B.Sc. Computer Science/IT, B.Com, B.A., or equivalent) with relevant mathematics or computer-related background, where required.
+                </div>
+              </div>
+
+              <div class="eligibility-item">
+                <div class="eligibility-check">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div>
+                  <strong>Academic Records:</strong> Minimum qualifying aggregate percentage in graduation as stipulated by the respective university or regulatory authority norms.
+                </div>
+              </div>
+
+              <div class="eligibility-item">
+                <div class="eligibility-check">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div>
+                  <strong>Entrance Examination:</strong> Valid score or rank in applicable state-level or national-level MCA entrance examinations, where applicable.
+                </div>
+              </div>
+
+              <div class="eligibility-item">
+                <div class="eligibility-check">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div>
+                  <strong>University Regulations:</strong> Additional eligibility conditions, bridge course requirements, or reservation norms depending on applicable university regulations.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="eligibility-Callout">
+            <h3>Start Your MCA Journey Today.</h3>
+            <p>Have questions regarding general eligibility, curriculum structure, or the admission timeline? Submit a demo admission enquiry below or visit our dedicated Admissions page.</p>
+            <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+              <a href="#enquiry-form" class="btn btn-primary">Apply Now</a>
+              <a href="admissions.html" class="btn btn-outline-white">View Full Admissions Guide</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 14. PLACEMENTS AND CAREER DEVELOPMENT -->
+    <section class="section" id="placements">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>PLACEMENTS &amp; CAREERS</span>
+          </div>
+          <h2 class="section-title">Turn Your Technical Skills Into Career Opportunities</h2>
+          <p class="section-desc">A strong MCA education combines technical knowledge with practical projects, coding experience, analytical thinking, and career preparation.</p>
+          <div class="demo-badge-note">
+            <span>Disclaimer: All figures below are sample demonstration data only, not actual placement records or guaranteed salaries.</span>
+          </div>
+        </div>
+
+        <!-- 4 Statistical Cards with Fictional Demo Data -->
+        <div class="placement-stats-grid">
+          <div class="placement-stat-card reveal">
+            <div class="placement-stat-value">95%</div>
+            <div class="placement-stat-title">Placement Assistance</div>
+            <span class="placement-stat-sub">Sample Demonstration Data</span>
+          </div>
+
+          <div class="placement-stat-card reveal">
+            <div class="placement-stat-value">₹8.5 LPA</div>
+            <div class="placement-stat-title">Illustrative Average Package</div>
+            <span class="placement-stat-sub">Sample Demonstration Data</span>
+          </div>
+
+          <div class="placement-stat-card reveal">
+            <div class="placement-stat-value">₹15 LPA</div>
+            <div class="placement-stat-title">Illustrative Highest Package</div>
+            <span class="placement-stat-sub">Sample Demonstration Data</span>
+          </div>
+
+          <div class="placement-stat-card reveal">
+            <div class="placement-stat-value">50+</div>
+            <div class="placement-stat-title">Mock Interview Sessions</div>
+            <span class="placement-stat-sub">Sample Demonstration Data</span>
+          </div>
+        </div>
+
+        <!-- Career Domains & Career Development Activities -->
+        <div class="career-Split-grid">
+          <div class="reveal">
+            <h3 style="margin-bottom: 0.5rem;">Key Career Domains for MCA Graduates</h3>
+            <p style="margin-bottom: 1.35rem; font-size: 0.92rem;">Illustrative technology roles and sectors where MCA graduates apply their computing skills:</p>
+            <div class="career-domains-grid">
+              <div class="career-domain-card">
+                <div class="career-domain-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </div>
+                <strong>Software Development</strong>
+              </div>
+              <div class="career-domain-card">
+                <div class="career-domain-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                </div>
+                <strong>Data Analytics</strong>
+              </div>
+              <div class="career-domain-card">
+                <div class="career-domain-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4"/></svg>
+                </div>
+                <strong>Artificial Intelligence</strong>
+              </div>
+              <div class="career-domain-card">
+                <div class="career-domain-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+                </div>
+                <strong>Cloud Engineering</strong>
+              </div>
+              <div class="career-domain-card">
+                <div class="career-domain-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <strong>Cybersecurity</strong>
+              </div>
+              <div class="career-domain-card">
+                <div class="career-domain-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                </div>
+                <strong>Web and Mobile Development</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal">
+            <h3 style="margin-bottom: 0.5rem;">Career Development Activities</h3>
+            <p style="margin-bottom: 1.35rem; font-size: 0.92rem;">Structured training modules integrated alongside academic semesters:</p>
+            <div class="career-domains-grid">
+              <div class="career-domain-card">
+                <div class="career-domain-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                </div>
+                <strong>Technical Interview Prep</strong>
+              </div>
+              <div class="career-domain-card">
+                <div class="career-domain-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/></svg>
+                </div>
+                <strong>Resume Development</strong>
+              </div>
+              <div class="career-domain-card">
+                <div class="career-domain-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+                </div>
+                <strong>Coding Practice</strong>
+              </div>
+              <div class="career-domain-card">
+                <div class="career-domain-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+                </div>
+                <strong>Mock Interviews</strong>
+              </div>
+              <div class="career-domain-card">
+                <div class="career-domain-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/></svg>
+                </div>
+                <strong>Project Development</strong>
+              </div>
+              <div class="career-domain-card">
+                <div class="career-domain-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                </div>
+                <strong>Communication Skills</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 15. FACULTY SECTION -->
+    <section class="section bg-light" id="faculty">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>ACADEMIC MENTORS</span>
+          </div>
+          <h2 class="section-title">Learn From Academic and Technology Mentors</h2>
+          <p class="section-desc">Dedicated academic mentors guide students through algorithmic foundations, laboratory experiments, and software project architecture.</p>
+          <div class="demo-badge-note">
+            <span>Demonstration Content: All faculty profiles below use generic identifiers and abstract avatars for demonstration purposes only.</span>
+          </div>
+        </div>
+
+        <div class="faculty-grid">
+          <article class="faculty-card reveal">
+            <div class="faculty-avatar" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <span class="faculty-demo-tag">Demo Profile 01</span>
+            <h3>Faculty Member 01 – Programming</h3>
+            <div class="faculty-role">Senior Academic Mentor | Core Computing</div>
+            <p class="faculty-bio">Specializes in object-oriented software construction, C++, Java enterprise architectures, and algorithmic problem-solving methodologies.</p>
+          </article>
+
+          <article class="faculty-card reveal">
+            <div class="faculty-avatar" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <span class="faculty-demo-tag">Demo Profile 02</span>
+            <h3>Faculty Member 02 – Data Science</h3>
+            <div class="faculty-role">Academic Mentor | Analytics &amp; Python</div>
+            <p class="faculty-bio">Focuses on statistical computing, exploratory data analysis, predictive modeling, and data visualization laboratories.</p>
+          </article>
+
+          <article class="faculty-card reveal">
+            <div class="faculty-avatar" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <span class="faculty-demo-tag">Demo Profile 03</span>
+            <h3>Faculty Member 03 – Artificial Intelligence</h3>
+            <div class="faculty-role">Academic Mentor | Intelligent Systems</div>
+            <p class="faculty-bio">Guides student research and capstone projects in machine learning algorithms, neural networks, and natural language processing.</p>
+          </article>
+
+          <article class="faculty-card reveal">
+            <div class="faculty-avatar" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <span class="faculty-demo-tag">Demo Profile 04</span>
+            <h3>Faculty Member 04 – Database Management</h3>
+            <div class="faculty-role">Academic Mentor | Systems &amp; DBMS</div>
+            <p class="faculty-bio">Specializes in relational database design, SQL query optimization, transaction concurrency, and distributed cloud storage.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 16. STUDENT PROJECTS SECTION -->
+    <section class="section" id="student-projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>CAPSTONE &amp; LAB PORTFOLIO</span>
+          </div>
+          <h2 class="section-title">From Classroom Learning to Real-World Projects</h2>
+          <p class="section-desc">Explore sample software engineering and data science project concepts built during practical MCA laboratory modules.</p>
+          <div class="demo-badge-note">
+            <span>Illustrative Demo Projects: All projects below are sample academic demonstrations, not claims of actual student achievements.</span>
+          </div>
+        </div>
+
+        <!-- Category Filter Buttons -->
+        <div class="filter-tabs reveal" role="tablist" aria-label="Project Categories">
+          <button class="filter-btn active" data-filter="all">All Demo Projects</button>
+          <button class="filter-btn" data-filter="web">Web &amp; Full Stack</button>
+          <button class="filter-btn" data-filter="enterprise">Enterprise &amp; DBMS</button>
+          <button class="filter-btn" data-filter="ai-data">AI &amp; Data Science</button>
+          <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+        </div>
+
+                <!-- 8 Project Cards -->
+        <div class="projects-grid">
+          <!-- 1. Student Management System -->
+          <article class="project-card reveal" data-category="enterprise">
+            <div class="project-visual">
+              <img src="assets/images/project-student-system.webp" alt="Student Management System Software Mockup" class="project-img">
+              <div class="project-visual-overlay"></div>
+              <div class="project-visual-content">
+                <div class="project-visual-top">
+                  <span class="project-cat-badge">Enterprise &amp; DBMS</span>
+                  <div class="project-visual-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                  </div>
+                </div>
+                <div class="project-stack-code">Java • SQL • Role-Based Access</div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <h3>Student Management System</h3>
+                <p>Illustrative academic portal for managing course enrollments, attendance logs, semester grading, and automated report generation.</p>
+              </div>
+              <a href="student-projects.html" class="btn btn-secondary btn-sm" data-demo-modal data-demo-title="Student Management System (Illustrative Demo Project)" data-demo-desc="Technology Category: Enterprise &amp; DBMS. This illustrative MCA project demonstrates relational database normalization, CRUD operations, role-based authentication, and automated academic transcript generation.">View Project</a>
+            </div>
+          </article>
+
+          <!-- 2. E-Commerce Web Application -->
+          <article class="project-card reveal" data-category="web">
+            <div class="project-visual">
+              <img src="assets/images/project-ecommerce-app.webp" alt="E-Commerce Web Application Mockup" class="project-img">
+              <div class="project-visual-overlay"></div>
+              <div class="project-visual-content">
+                <div class="project-visual-top">
+                  <span class="project-cat-badge">Web &amp; Full Stack</span>
+                  <div class="project-visual-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+                  </div>
+                </div>
+                <div class="project-stack-code">HTML5 • JS • REST API • RDBMS</div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <h3>E-Commerce Web Application</h3>
+                <p>Full-stack storefront featuring dynamic product catalogs, cart state management, order workflows, and inventory synchronization.</p>
+              </div>
+              <a href="student-projects.html" class="btn btn-secondary btn-sm" data-demo-modal data-demo-title="E-Commerce Web Application (Illustrative Demo Project)" data-demo-desc="Technology Category: Web &amp; Full Stack. Demonstrates responsive UI architecture, asynchronous API integration, shopping cart state persistence, and database transaction integrity.">View Project</a>
+            </div>
+          </article>
+
+          <!-- 3. Online Examination System -->
+          <article class="project-card reveal" data-category="web">
+            <div class="project-visual">
+              <img src="assets/images/project-exam-system.webp" alt="Online Examination System Mockup" class="project-img">
+              <div class="project-visual-overlay"></div>
+              <div class="project-visual-content">
+                <div class="project-visual-top">
+                  <span class="project-cat-badge">Web Application</span>
+                  <div class="project-visual-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                  </div>
+                </div>
+                <div class="project-stack-code">Web Tech • Timer Engine • SQL</div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <h3>Online Examination System</h3>
+                <p>Browser-based assessment platform with randomized question banks, automated countdown timers, and instant score analytics.</p>
+              </div>
+              <a href="student-projects.html" class="btn btn-secondary btn-sm" data-demo-modal data-demo-title="Online Examination System (Illustrative Demo Project)" data-demo-desc="Technology Category: Web Application. Demonstrates session management, randomized question selection algorithms, real-time timer synchronization, and automated evaluation.">View Project</a>
+            </div>
+          </article>
+
+          <!-- 4. Hospital Management System -->
+          <article class="project-card reveal" data-category="enterprise">
+            <div class="project-visual">
+              <img src="assets/images/project-hospital-system.webp" alt="Hospital Management System Mockup" class="project-img">
+              <div class="project-visual-overlay"></div>
+              <div class="project-visual-content">
+                <div class="project-visual-top">
+                  <span class="project-cat-badge">Enterprise Software</span>
+                  <div class="project-visual-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                  </div>
+                </div>
+                <div class="project-stack-code">Java • DBMS • Modular Architecture</div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <h3>Hospital Management System</h3>
+                <p>Integrated workflow system for outpatient appointment scheduling, doctor availability tracking, and digital prescription records.</p>
+              </div>
+              <a href="student-projects.html" class="btn btn-secondary btn-sm" data-demo-modal data-demo-title="Hospital Management System (Illustrative Demo Project)" data-demo-desc="Technology Category: Enterprise Software. Illustrates multi-module software engineering, secure patient record indexing, appointment conflict resolution, and billing workflows.">View Project</a>
+            </div>
+          </article>
+
+          <!-- 5. AI-Based Chatbot -->
+          <article class="project-card reveal" data-category="ai-data">
+            <div class="project-visual">
+              <img src="assets/images/project-ai-chatbot.webp" alt="AI-Based Chatbot Interface Mockup" class="project-img">
+              <div class="project-visual-overlay"></div>
+              <div class="project-visual-content">
+                <div class="project-visual-top">
+                  <span class="project-cat-badge">Artificial Intelligence</span>
+                  <div class="project-visual-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                  </div>
+                </div>
+                <div class="project-stack-code">Python • NLP • Intent Classification</div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <h3>AI-Based Chatbot</h3>
+                <p>Conversational assistant utilizing natural language tokenization and intent classification to answer academic and technical FAQs.</p>
+              </div>
+              <a href="student-projects.html" class="btn btn-secondary btn-sm" data-demo-modal data-demo-title="AI-Based Chatbot (Illustrative Demo Project)" data-demo-desc="Technology Category: Artificial Intelligence. Demonstrates natural language preprocessing, intent recognition models, context tracking, and web widget integration.">View Project</a>
+            </div>
+          </article>
+
+          <!-- 6. Data Analytics Dashboard -->
+          <article class="project-card reveal" data-category="ai-data">
+            <div class="project-visual">
+              <img src="assets/images/project-data-analytics.webp" alt="Data Analytics Dashboard Mockup" class="project-img">
+              <div class="project-visual-overlay"></div>
+              <div class="project-visual-content">
+                <div class="project-visual-top">
+                  <span class="project-cat-badge">Data Science</span>
+                  <div class="project-visual-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                  </div>
+                </div>
+                <div class="project-stack-code">Python • Statistical Charts • KPI</div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <h3>Data Analytics Dashboard</h3>
+                <p>Interactive visual analytics interface transforming raw CSV/SQL datasets into trend forecasts, heatmaps, and KPI summaries.</p>
+              </div>
+              <a href="student-projects.html" class="btn btn-secondary btn-sm" data-demo-modal data-demo-title="Data Analytics Dashboard (Illustrative Demo Project)" data-demo-desc="Technology Category: Data Science. Demonstrates data cleaning pipelines, statistical aggregation, interactive chart rendering, and time-series trend forecasting.">View Project</a>
+            </div>
+          </article>
+
+          <!-- 7. Mobile Application -->
+          <article class="project-card reveal" data-category="mobile">
+            <div class="project-visual">
+              <img src="assets/images/project-mobile-app.webp" alt="Student Mobile Application Mockup" class="project-img">
+              <div class="project-visual-overlay"></div>
+              <div class="project-visual-content">
+                <div class="project-visual-top">
+                  <span class="project-cat-badge">Mobile Computing</span>
+                  <div class="project-visual-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                  </div>
+                </div>
+                <div class="project-stack-code">Android • Mobile UI • SQLite</div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <h3>Mobile Application</h3>
+                <p>Smart campus utility mobile app concept featuring timetable alerts, study planner checklists, and offline note synchronization.</p>
+              </div>
+              <a href="student-projects.html" class="btn btn-secondary btn-sm" data-demo-modal data-demo-title="Mobile Application (Illustrative Demo Project)" data-demo-desc="Technology Category: Mobile Development. Demonstrates responsive mobile UI layouts, local SQLite storage, push notification triggers, and lifecycle management.">View Project</a>
+            </div>
+          </article>
+
+          <!-- 8. Inventory Management System -->
+          <article class="project-card reveal" data-category="enterprise">
+            <div class="project-visual">
+              <img src="assets/images/project-inventory-system.webp" alt="Inventory Management System Mockup" class="project-img">
+              <div class="project-visual-overlay"></div>
+              <div class="project-visual-content">
+                <div class="project-visual-top">
+                  <span class="project-cat-badge">Database Systems</span>
+                  <div class="project-visual-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+                  </div>
+                </div>
+                <div class="project-stack-code">C++ / Java • Relational DB • Reports</div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div>
+                <h3>Inventory Management System</h3>
+                <p>Stock tracking and supply chain utility with low-inventory threshold alerts, supplier logs, and automated audit reporting.</p>
+              </div>
+              <a href="student-projects.html" class="btn btn-secondary btn-sm" data-demo-modal data-demo-title="Inventory Management System (Illustrative Demo Project)" data-demo-desc="Technology Category: Enterprise &amp; DBMS. Demonstrates stock ledger transactions, reorder threshold triggers, barcode indexing concepts, and summary reporting.">View Project</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 17. CAMPUS LIFE GALLERY -->
+    <section class="section bg-light" id="campus-life">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>CAMPUS LIFE</span>
+          </div>
+          <h2 class="section-title">Discover the Campus Experience</h2>
+          <p class="section-desc">Explore illustrative visuals of a modern technology-focused college environment, from high-tech computer labs to collaborative student spaces. Click any image to view in full screen.</p>
+          <div class="demo-badge-note">
+            <span>Illustrative Demo Visuals: All campus photographs are AI-generated demonstration visuals.</span>
+          </div>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item reveal" tabindex="0" role="button" aria-label="Open Modern College Campus image in lightbox">
+            <img src="assets/images/campus-gallery-01.webp" alt="Modern College Campus exterior architecture with glass facade and landscaped pathways">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+              <div class="gallery-caption-title">Modern College Campus</div>
+              <div class="gallery-caption-sub">Contemporary Academic Architecture (Demo Visual)</div>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal" tabindex="0" role="button" aria-label="Open Computer Laboratories image in lightbox">
+            <img src="assets/images/computer-lab.webp" alt="Computer Laboratories with modern dual-monitor workstations">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+              <div class="gallery-caption-title">Computer Laboratories</div>
+              <div class="gallery-caption-sub">Practical Software &amp; Systems Lab (Demo Visual)</div>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal" tabindex="0" role="button" aria-label="Open Smart Classrooms image in lightbox">
+            <img src="assets/images/programming-classroom.webp" alt="Smart Classrooms with interactive projection and student laptop desks">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+              <div class="gallery-caption-title">Smart Classrooms</div>
+              <div class="gallery-caption-sub">Interactive Audio-Visual Learning (Demo Visual)</div>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal" tabindex="0" role="button" aria-label="Open Library and Study Spaces image in lightbox">
+            <img src="assets/images/library.webp" alt="Library and Study Spaces with digital reading pods and computing reference shelves">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+              <div class="gallery-caption-title">Library and Study Spaces</div>
+              <div class="gallery-caption-sub">Digital &amp; Print Knowledge Resource Center (Demo Visual)</div>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal" tabindex="0" role="button" aria-label="Open Student Coding Sessions image in lightbox">
+            <img src="assets/images/student-coding.webp" alt="Student Coding Sessions with collaborative software development">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+              <div class="gallery-caption-title">Student Coding Sessions</div>
+              <div class="gallery-caption-sub">Peer Programming &amp; Capstone Sprints (Demo Visual)</div>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal" tabindex="0" role="button" aria-label="Open Technical Workshops image in lightbox">
+            <img src="assets/images/seminar-hall.webp" alt="Technical Workshops in a modern acoustic seminar hall">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+              <div class="gallery-caption-title">Technical Workshops</div>
+              <div class="gallery-caption-sub">Seminars &amp; Symposium Auditorium (Demo Visual)</div>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal" tabindex="0" role="button" aria-label="Open Cultural Events image in lightbox">
+            <img src="assets/images/campus-gallery-03.webp" alt="Cultural Events and illuminated evening campus courtyard">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+              <div class="gallery-caption-title">Cultural Events</div>
+              <div class="gallery-caption-sub">Vibrant Student Community Gatherings (Demo Visual)</div>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal" tabindex="0" role="button" aria-label="Open Sports and Recreation image in lightbox">
+            <img src="assets/images/campus-gallery-04.webp" alt="Sports and Recreation outdoor campus commons area">
+            <div class="gallery-overlay">
+              <div class="gallery-zoom-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
+              <div class="gallery-caption-title">Sports and Recreation</div>
+              <div class="gallery-caption-sub">Outdoor Commons &amp; Wellness Spaces (Demo Visual)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 18. STUDENT TESTIMONIALS -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>STUDENT PERSPECTIVES</span>
+          </div>
+          <h2 class="section-title">Student Learning Experiences</h2>
+          <p class="section-desc">Illustrative reflections highlighting how structured laboratory sessions and project-based learning support technical growth.</p>
+          <div class="demo-badge-note">
+            <span>Sample Testimonials – Demonstration Content (Not verified student feedback)</span>
+          </div>
+        </div>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card reveal">
+            <div>
+              <div class="quote-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+              </div>
+              <p class="testimonial-text">"Working through Python programming labs and building neural network prototypes in the AI learning environment helped bridge mathematical concepts with practical software implementation."</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">S1</div>
+              <div class="author-info">
+                <strong>MCA Student 01</strong>
+                <span>Learning Domain: Artificial Intelligence (Sample Demo)</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <div>
+              <div class="quote-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+              </div>
+              <p class="testimonial-text">"The emphasis on data structures, database normalization, and full-stack web architecture gave me the confidence to design complete end-to-end web applications from scratch."</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">S2</div>
+              <div class="author-info">
+                <strong>MCA Student 02</strong>
+                <span>Learning Domain: Full Stack Development (Sample Demo)</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card reveal">
+            <div>
+              <div class="quote-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+              </div>
+              <p class="testimonial-text">"Regular coding sessions, SQL optimization exercises, and mock technical interviews created a structured pathway to transition from classroom theory to analytical problem solving."</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">S3</div>
+              <div class="author-info">
+                <strong>MCA Student 03</strong>
+                <span>Learning Domain: Data Science (Sample Demo)</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 19. EVENTS AND TECHNICAL ACTIVITIES -->
+    <section class="section bg-light" id="events">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>TECHNICAL ACTIVITIES</span>
+          </div>
+          <h2 class="section-title">Technology. Innovation. Collaboration.</h2>
+          <p class="section-desc">Co-curricular coding challenges, workshops, and technical symposiums foster peer learning and rapid prototyping.</p>
+          <div class="demo-badge-note">
+            <span>Demo Content: All events and dates listed below are fictional sample demonstrations.</span>
+          </div>
+        </div>
+
+        <div class="events-grid">
+          <article class="event-card reveal">
+            <div class="event-img">
+              <img src="assets/images/student-coding.webp" alt="Coding Competition with students solving algorithmic challenges">
+              <span class="event-date-pill">Sample Date: Oct 15, 2026 (Demo)</span>
+            </div>
+            <div class="event-body">
+              <div>
+                <h3>Coding Competition</h3>
+                <p>Timed algorithmic problem-solving contest testing data structures, dynamic programming, and code optimization in C++, Java, and Python.</p>
+              </div>
+              <a href="campus-life.html#events" class="link-arrow" data-demo-modal data-demo-title="Coding Competition (Demo Event)" data-demo-desc="Sample Date: October 15, 2026. This illustrative event represents an inter-semester algorithmic coding challenge focused on time-complexity optimization and peer code review.">
+                <span>Read More</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="event-card reveal">
+            <div class="event-img">
+              <img src="assets/images/ai-lab.webp" alt="Artificial Intelligence Workshop in a modern computing lab">
+              <span class="event-date-pill">Sample Date: Nov 08, 2026 (Demo)</span>
+            </div>
+            <div class="event-body">
+              <div>
+                <h3>Artificial Intelligence Workshop</h3>
+                <p>Hands-on laboratory workshop exploring supervised machine learning pipelines, model training, and ethical AI deployment concepts.</p>
+              </div>
+              <a href="campus-life.html#events" class="link-arrow" data-demo-modal data-demo-title="Artificial Intelligence Workshop (Demo Event)" data-demo-desc="Sample Date: November 08, 2026. This illustrative workshop covers Python machine learning libraries, dataset preprocessing, and neural network evaluation metrics.">
+                <span>Read More</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="event-card reveal">
+            <div class="event-img">
+              <img src="assets/images/seminar-hall.webp" alt="Technical Symposium presentation in seminar auditorium">
+              <span class="event-date-pill">Sample Date: Dec 04, 2026 (Demo)</span>
+            </div>
+            <div class="event-body">
+              <div>
+                <h3>Technical Symposium</h3>
+                <p>Academic paper presentations, technical poster sessions, and panel discussions on cloud computing, cybersecurity, and distributed systems.</p>
+              </div>
+              <a href="campus-life.html#events" class="link-arrow" data-demo-modal data-demo-title="Technical Symposium (Demo Event)" data-demo-desc="Sample Date: December 04, 2026. Illustrative academic symposium featuring student paper presentations and technology domain seminars.">
+                <span>Read More</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="event-card reveal">
+            <div class="event-img">
+              <img src="assets/images/technical-event.webp" alt="Software Development Hackathon teams collaborating with laptops">
+              <span class="event-date-pill">Sample Date: Jan 22, 2027 (Demo)</span>
+            </div>
+            <div class="event-body">
+              <div>
+                <h3>Software Development Hackathon</h3>
+                <p>Collaborative 24-hour sprint where student teams conceptualize, code, and demonstrate functional web and mobile prototypes.</p>
+              </div>
+              <a href="campus-life.html#events" class="link-arrow" data-demo-modal data-demo-title="Software Development Hackathon (Demo Event)" data-demo-desc="Sample Date: January 22, 2027. Illustrative team hackathon focused on rapid full-stack prototyping, UI/UX design, and database integration.">
+                <span>Read More</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 20. FAQ SECTION -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span>FREQUENTLY ASKED QUESTIONS</span>
+          </div>
+          <h2 class="section-title">Common Questions About MCA Education</h2>
+          <p class="section-desc">Informative general answers for Indian students exploring a Master of Computer Applications degree.</p>
+        </div>
+
+        <div class="faq-container reveal">
+          <!-- FAQ 1 -->
+          <div class="faq-item active">
+            <button class="faq-question" aria-expanded="true">
+              <span>What is an MCA program?</span>
+              <span class="faq-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Master of Computer Applications (MCA) is a postgraduate degree program in India focused on computer science, software development, application programming, database management, and modern information technology domains. It is designed to prepare graduates for technical careers in the software and IT sector.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What is the general eligibility for MCA admission?</span>
+              <span class="faq-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Generally, candidates require a recognized Bachelor's degree (such as BCA, B.Sc. in Computer Science/IT, or a Bachelor's degree in any stream with Mathematics at the 10+2 level or graduation level, depending on university norms) with a minimum qualifying aggregate percentage. Many institutions and states also require a valid score in a state-level or national-level MCA entrance examination. Exact eligibility rules depend on the specific institution and affiliating university.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What subjects are covered in MCA?</span>
+              <span class="faq-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                An MCA curriculum typically covers core subjects such as Programming in C, C++, Java, and Python, Data Structures and Algorithms, Database Management Systems (DBMS), Operating Systems, Computer Networks, Software Engineering, Web Technologies, Cloud Computing, Artificial Intelligence, and Machine Learning, alongside practical lab work and software projects.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What is the typical duration of MCA?</span>
+              <span class="faq-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Under current academic guidelines across most Indian universities, the MCA program is typically a 2-year postgraduate degree divided into 4 academic semesters, including core coursework, elective modules, and a final semester capstone project.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Is mathematics required for MCA?</span>
+              <span class="faq-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Many universities require candidates to have studied Mathematics either at the 10+2 (Higher Secondary) level or at the undergraduate level. Some universities allow candidates from non-mathematics backgrounds to enroll if they complete a mandatory bridge course in mathematics and computer fundamentals, subject to the respective university's regulations.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What career opportunities are available after MCA?</span>
+              <span class="faq-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                MCA graduates pursue roles across the technology sector, including Software Developer, Full Stack Engineer, Data Analyst, Machine Learning Engineer, Cloud Systems Administrator, Database Administrator, Cybersecurity Analyst, Mobile Application Developer, and Quality Assurance Engineer.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 7 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What programming languages are useful for MCA students?</span>
+              <span class="faq-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                C and C++ build strong foundations in memory management and data structures. Java is widely used for enterprise backend systems and Android development. Python is essential for data science, artificial intelligence, and scripting. Additionally, SQL and JavaScript/TypeScript are critical for database management and modern full-stack web development.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 8 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Are practical projects part of MCA education?</span>
+              <span class="faq-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Yes. Practical laboratory sessions, mini-projects, and a comprehensive final-semester major software project are core components of an MCA program. They enable students to apply software engineering lifecycles, database design, and coding practices to real-world problem statements.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ 9 -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How can students apply for admission?</span>
+              <span class="faq-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg></span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Prospective students typically submit an online or offline admission enquiry, verify their undergraduate eligibility and entrance examination scores (where applicable), participate in counseling or document verification, and complete seat confirmation formalities as prescribed by the institution.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 21. ADMISSION ENQUIRY FORM & 22. CONTACT INFORMATION -->
+    <section class="section bg-light" id="enquiry-form">
+      <div class="container">
+        <div class="enquiry-section-grid">
+          <!-- Left Column: Info & Dummy Contact Details -->
+          <div class="reveal">
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span>
+              <span>ADMISSION ENQUIRY</span>
+            </div>
+            <h2 class="section-title">Start Your Career in Technology</h2>
+            <p class="section-desc" style="margin-bottom: 1.75rem;">Interested in pursuing a Master of Computer Applications? Share your details to explore your academic opportunities.</p>
+
+            <div style="display: grid; gap: 1rem; margin-bottom: 2rem;">
+              <div class="contact-info-card">
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                  <div class="contact-info-icon" style="margin-bottom: 0;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  </div>
+                  <div>
+                    <h3 style="margin-bottom: 0.15rem;">Admission Helpline (Demo)</h3>
+                    <p>Phone: 0000000000 | Alt: 0000000000</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-info-card">
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                  <div class="contact-info-icon" style="margin-bottom: 0;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  </div>
+                  <div>
+                    <h3 style="margin-bottom: 0.15rem;">Email Address (Demo)</h3>
+                    <p><a href="mailto:demo@example.com">demo@example.com</a></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-info-card">
+                <div style="display: flex; align-items: center; gap: 1rem;">
+                  <div class="contact-info-icon" style="margin-bottom: 0;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  </div>
+                  <div>
+                    <h3 style="margin-bottom: 0.15rem;">Campus Location (Demo Placeholder)</h3>
+                    <p>Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Admission Enquiry Form -->
+          <div class="form-card reveal">
+            <h3 style="font-size: 1.35rem; margin-bottom: 0.35rem;">Admission Enquiry Form</h3>
+            <p style="font-size: 0.88rem; margin-bottom: 1.5rem;">Complete the fields below to test the interactive frontend validation.</p>
+
+            <form id="admissionEnquiryForm" novalidate>
+              <div class="form-grid">
+                <div class="form-group">
+                  <label class="form-label" for="fullName">Full Name <span class="req">*</span></label>
+                  <input type="text" id="fullName" name="fullName" class="form-control" placeholder="Enter your full name" required>
+                  <span class="error-msg">Please enter your full name.</span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="mobileNumber">Mobile Number <span class="req">*</span></label>
+                  <input type="tel" id="mobileNumber" name="mobileNumber" class="form-control" placeholder="10-digit mobile number" maxlength="10" required>
+                  <span class="error-msg">Please enter a valid 10-digit Indian mobile number.</span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="emailAddress">Email Address <span class="req">*</span></label>
+                  <input type="email" id="emailAddress" name="emailAddress" class="form-control" placeholder="student@example.com" required>
+                  <span class="error-msg">Please enter a valid email address.</span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="city">City <span class="req">*</span></label>
+                  <input type="text" id="city" name="city" class="form-control" placeholder="e.g., Hyderabad" required>
+                  <span class="error-msg">Please enter your city.</span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="qualification">Graduation Qualification <span class="req">*</span></label>
+                  <input type="text" id="qualification" name="qualification" class="form-control" placeholder="e.g., BCA, B.Sc, B.Com" required>
+                  <span class="error-msg">Please enter your graduation qualification.</span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="specialization">Graduation Specialization <span class="req">*</span></label>
+                  <input type="text" id="specialization" name="specialization" class="form-control" placeholder="e.g., Computer Science, Maths" required>
+                  <span class="error-msg">Please enter your graduation specialization.</span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="percentage">Graduation Percentage <span class="req">*</span></label>
+                  <input type="number" id="percentage" name="percentage" class="form-control" placeholder="e.g., 75" min="35" max="100" step="0.1" required>
+                  <span class="error-msg">Enter a valid percentage (35 - 100).</span>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="learningDomain">Preferred Learning Domain <span class="req">*</span></label>
+                  <select id="learningDomain" name="learningDomain" class="form-control" required>
+                    <option value="">Select Learning Domain</option>
+                    <option value="Artificial Intelligence">Artificial Intelligence</option>
+                    <option value="Data Science">Data Science</option>
+                    <option value="Full Stack Development">Full Stack Development</option>
+                    <option value="Cybersecurity">Cybersecurity</option>
+                    <option value="Cloud Computing">Cloud Computing</option>
+                    <option value="Mobile Application Development">Mobile Application Development</option>
+                    <option value="Not Decided">Not Decided</option>
+                  </select>
+                  <span class="error-msg">Please select a preferred learning domain.</span>
+                </div>
+
+                <div class="form-group full-width">
+                  <label class="form-label" for="message">Message (Optional)</label>
+                  <textarea id="message" name="message" rows="3" class="form-control" placeholder="Share any questions about the MCA program or admission process..."></textarea>
+                </div>
+
+                <div class="form-group full-width" style="margin-top: 0.5rem;">
+                  <button type="submit" class="btn btn-primary" style="width: 100%;">
+                    <span>Submit Admission Enquiry</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                  </button>
+                </div>
+              </div>
+
+              <div class="form-demo-notice">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                <span>Demo form only. Your information is not transmitted or stored.</span>
+              </div>
+
+              <div class="form-success-alert" id="admissionFormSuccess" role="status" aria-live="polite">
+                Thank you! Your demonstration admission enquiry has been validated and simulated on the frontend. No personal data was transmitted or stored.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 23. FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Column 1 -->
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" aria-label="MCA College Website">
+            <div class="brand-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3L2 8l10 5 10-5-10-5z"/>
+                <path d="M6 10.5v5.5c0 1.8 2.7 3.5 6 3.5s6-1.7 6-3.5v-5.5"/>
+                <path d="M22 8v6"/>
+                <circle cx="12" cy="8" r="1.2" fill="#DDF4FF" stroke="none"/>
+              </svg>
+            </div>
+            <div class="brand-text-wrap">
+              <span class="brand-title">MCA COLLEGE WEBSITE</span>
+              <span class="brand-subtitle">Technology Education Demo</span>
+            </div>
+          </a>
+          <p class="footer-desc">A modern, technology-focused Master of Computer Applications (MCA) educational website demonstration highlighting computer science education, programming, software development, and campus facilities.</p>
+          <!-- Decorative Social Icons Only (No external links) -->
+          <div class="social-decorative-list" aria-label="Decorative Social Icons (Demo Only)">
+            <span class="social-deco-icon" title="Decorative Icon Only"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></span>
+            <span class="social-deco-icon" title="Decorative Icon Only"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></span>
+            <span class="social-deco-icon" title="Decorative Icon Only"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></span>
+            <span class="social-deco-icon" title="Decorative Icon Only"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg></span>
+          </div>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="footer-col">
+          <h4>Academic Links</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="mca-program.html">MCA Program</a></li>
+            <li><a href="specializations.html">Specializations</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="footer-col">
+          <h4>Campus &amp; Careers</h4>
+          <ul class="footer-links">
+            <li><a href="placements.html">Placements</a></li>
+            <li><a href="student-projects.html">Student Projects</a></li>
+            <li><a href="campus-life.html">Campus Life</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4 -->
+        <div class="footer-col">
+          <h4>Contact Information (Demo)</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>Phone: 0000000000</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>Email: <a href="mailto:demo@example.com">demo@example.com</a></span>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Address: Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mandatory Disclaimer -->
+      <div class="footer-disclaimer-box">
+        <strong>Disclaimer:</strong> This is a fictional educational website demonstration. All institutional details, academic information, statistics, faculty profiles, student testimonials, placement information, and campus facilities are illustrative and do not represent an actual educational institution.
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 MCA College Website. Demo Website – All Rights Reserved.</span>
+        <span>Built with HTML5, CSS3 &amp; Vanilla JavaScript</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Campus Image Lightbox Modal -->
+  <div class="lightbox-modal" id="lightboxModal" aria-hidden="true" role="dialog" aria-label="Campus Image Lightbox">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close Lightbox">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div class="lightbox-img-wrap">
+        <img src="assets/images/campus-gallery-01.webp" id="lightboxImage" alt="Campus Lightbox Preview">
+      </div>
+      <div class="lightbox-footer">
+        <div class="lightbox-caption">
+          <h4 id="lightboxTitle">Modern College Campus</h4>
+          <p id="lightboxDesc">Illustrative Demo Visual</p>
+        </div>
+        <span class="demo-badge-note" style="margin-top: 0;">AI-Generated Demo Visual</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Demo Feature Modal -->
+  <div class="demo-info-modal" id="demoInfoModal" aria-hidden="true" role="dialog" aria-labelledby="demoModalTitle">
+    <div class="demo-info-dialog">
+      <div class="eyebrow" style="margin-bottom: 0.75rem;"><span class="eyebrow-dot"></span> Interactive Demo Preview</div>
+      <h3 id="demoModalTitle" style="margin-bottom: 0.65rem;">Demonstration Feature</h3>
+      <p id="demoModalBody" style="margin-bottom: 1.5rem;">This interactive feature is part of the MCA College Website demonstration template.</p>
+      <div style="display: flex; justify-content: flex-end; gap: 0.75rem;">
+        <button type="button" class="btn btn-primary btn-sm" id="demoModalClose">Close Preview</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Scroll back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- Main JavaScript -->
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

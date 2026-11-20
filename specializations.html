@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Specializations &amp; Technology Domains | MCA College Website</title>
+  <meta name="description" content="Explore a modern MCA college website demo featuring computer applications, programming, artificial intelligence, data science, admissions, placements, and campus life in India.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Specializations &amp; Technology Domains | MCA College Website">
+  <meta property="og:description" content="Explore emerging technology learning domains including Artificial Intelligence, Data Science, Full Stack Development, Cybersecurity, Cloud Computing, and Mobile Application Development.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/ai-lab.webp">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- Top Demo Announcement Bar -->
+  <div class="top-demo-bar">
+    <div class="container top-demo-bar-inner">
+      <div class="top-demo-notice">
+        <span class="top-demo-pill">Demo Website</span>
+        <span>Illustrative MCA College Website Template — Generic Academic Demonstration Content Only</span>
+      </div>
+      <div class="top-demo-links">
+        <span>Phone: 0000000000</span>
+        <span>Email: demo@example.com</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Header & Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="MCA College Home">
+        <div class="brand-icon-box" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3L2 8l10 5 10-5-10-5z"/>
+            <path d="M6 10.5v5.5c0 1.8 2.7 3.5 6 3.5s6-1.7 6-3.5v-5.5"/>
+            <path d="M22 8v6"/>
+            <circle cx="12" cy="8" r="1.2" fill="#DDF4FF" stroke="none"/>
+          </svg>
+        </div>
+        <div class="brand-text-wrap">
+          <span class="brand-title">MCA COLLEGE</span>
+          <span class="brand-subtitle">Computer Applications</span>
+        </div>
+      </a>
+
+            <!-- Center Section: Clean Navigation with Dropdowns -->
+      <nav class="main-nav" id="mainNav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+
+          <!-- Academics Dropdown -->
+          <li class="nav-item dropdown">
+            <a href="mca-program.html" class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+              <span>Academics</span>
+              <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </a>
+            <ul class="nav-dropdown-menu">
+              <li><a href="mca-program.html" class="dropdown-link">MCA Program</a></li>
+              <li><a href="specializations.html" class="dropdown-link">Specializations</a></li>
+              <li><a href="student-projects.html" class="dropdown-link">Student Projects</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="admissions.html" class="nav-link">Admissions</a>
+          </li>
+
+          <!-- Campus & About Dropdown -->
+          <li class="nav-item dropdown">
+            <a href="about.html" class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+              <span>Explore</span>
+              <svg class="dropdown-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </a>
+            <ul class="nav-dropdown-menu">
+              <li><a href="about.html" class="dropdown-link">About Us</a></li>
+              <li><a href="placements.html" class="dropdown-link">Placements</a></li>
+              <li><a href="campus-life.html" class="dropdown-link">Campus Life</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#student-portal" class="portal-link" data-demo-modal data-demo-title="Student Portal (Demo Link)" data-demo-desc="This is a frontend demonstration link for the Student Portal. In an active institutional deployment, students log in here to access course materials, lab schedules, attendance, and academic announcements.">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          <span>Student Portal</span>
+        </a>
+        <a href="admissions.html#enquiry-form" class="btn btn-primary btn-sm">Apply Now</a>
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Hero Banner -->
+    <section class="page-banner">
+      <div class="container page-banner-inner">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="breadcrumb-sep">/</span>
+          <span>Specializations</span>
+        </nav>
+        <h1>Explore Emerging Technology Domains</h1>
+        <p>Discover six illustrative technology focus areas that complement core MCA computing subjects with hands-on laboratory projects and software development practice.</p>
+      </div>
+    </section>
+
+    <!-- Six Premium Specialization Cards -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> MCA TECHNOLOGY DOMAINS</div>
+          <h2 class="section-title">Explore Emerging Technology Domains</h2>
+          <p class="section-desc">Each learning track combines foundational computer science principles with practical programming and capstone project development.</p>
+          <div class="demo-badge-note">
+            <span>Important Note: These are illustrative technology learning domains, not claims of formally approved university specializations.</span>
+          </div>
+        </div>
+
+        <div class="specializations-grid">
+          <!-- 1. Artificial Intelligence -->
+          <article class="spec-card reveal" id="ai-domain">
+            <div class="spec-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4"/></svg>
+            </div>
+            <h3>Artificial Intelligence</h3>
+            <p>Focuses on computational intelligence, neural network architectures, natural language processing, and automated reasoning systems.</p>
+            <div class="spec-topics">
+              <span class="spec-topic-item">Machine Learning</span>
+              <span class="spec-topic-item">Neural Networks</span>
+              <span class="spec-topic-item">AI Applications</span>
+              <span class="spec-topic-item">Intelligent Systems</span>
+            </div>
+            <a href="admissions.html#enquiry-form" class="link-arrow">
+              <span>Explore More</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <!-- 2. Data Science -->
+          <article class="spec-card reveal" id="data-science-domain">
+            <div class="spec-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/><line x1="2" y1="20" x2="22" y2="20"/></svg>
+            </div>
+            <h3>Data Science</h3>
+            <p>Covers exploratory data analysis, statistical hypothesis testing, big data processing pipelines, and interactive dashboard reporting.</p>
+            <div class="spec-topics">
+              <span class="spec-topic-item">Data Analytics</span>
+              <span class="spec-topic-item">Statistical Computing</span>
+              <span class="spec-topic-item">Data Visualization</span>
+              <span class="spec-topic-item">Predictive Modelling</span>
+            </div>
+            <a href="admissions.html#enquiry-form" class="link-arrow">
+              <span>Explore More</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <!-- 3. Full Stack Development -->
+          <article class="spec-card reveal" id="fullstack-domain">
+            <div class="spec-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/><line x1="14" y1="4" x2="10" y2="20"/></svg>
+            </div>
+            <h3>Full Stack Development</h3>
+            <p>Encompasses client-side web interfaces, RESTful backend engineering, database schema optimization, and end-to-end deployment.</p>
+            <div class="spec-topics">
+              <span class="spec-topic-item">Frontend Development</span>
+              <span class="spec-topic-item">Backend Development</span>
+              <span class="spec-topic-item">Database Technologies</span>
+              <span class="spec-topic-item">Web Application Development</span>
+            </div>
+            <a href="admissions.html#enquiry-form" class="link-arrow">
+              <span>Explore More</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <!-- 4. Cybersecurity -->
+          <article class="spec-card reveal" id="cybersecurity-domain">
+            <div class="spec-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Cybersecurity</h3>
+            <p>Explores cryptographic algorithms, secure software development, network defense architectures, and vulnerability assessment.</p>
+            <div class="spec-topics">
+              <span class="spec-topic-item">Network Security</span>
+              <span class="spec-topic-item">Information Security</span>
+              <span class="spec-topic-item">Ethical Security Concepts</span>
+              <span class="spec-topic-item">Security Fundamentals</span>
+            </div>
+            <a href="admissions.html#enquiry-form" class="link-arrow">
+              <span>Explore More</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <!-- 5. Cloud Computing -->
+          <article class="spec-card reveal" id="cloud-domain">
+            <div class="spec-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+            </div>
+            <h3>Cloud Computing</h3>
+            <p>Examines virtualized infrastructure, distributed storage systems, container orchestration, and cloud-native application design.</p>
+            <div class="spec-topics">
+              <span class="spec-topic-item">Cloud Architecture</span>
+              <span class="spec-topic-item">Virtualization</span>
+              <span class="spec-topic-item">Distributed Systems</span>
+              <span class="spec-topic-item">Cloud Applications</span>
+            </div>
+            <a href="admissions.html#enquiry-form" class="link-arrow">
+              <span>Explore More</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <!-- 6. Mobile Application Development -->
+          <article class="spec-card reveal" id="mobile-domain">
+            <div class="spec-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            </div>
+            <h3>Mobile Application Development</h3>
+            <p>Covers native Android programming, responsive mobile user interface design, local data persistence, and mobile QA testing.</p>
+            <div class="spec-topics">
+              <span class="spec-topic-item">Android Development</span>
+              <span class="spec-topic-item">Mobile UI Design</span>
+              <span class="spec-topic-item">Application Programming</span>
+              <span class="spec-topic-item">Mobile Application Testing</span>
+            </div>
+            <a href="admissions.html#enquiry-form" class="link-arrow">
+              <span>Explore More</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Laboratory Integration Section -->
+    <section class="section bg-light">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image-wrap reveal">
+            <div class="about-main-img">
+              <img src="assets/images/ai-lab.webp" alt="AI and Data Science Laboratory Environment">
+            </div>
+          </div>
+          <div class="reveal">
+            <div class="eyebrow"><span class="eyebrow-dot"></span> PRACTICAL DOMAIN LABS</div>
+            <h2 class="section-title">Hands-On Experimentation Across Domains</h2>
+            <p class="section-desc">Students reinforce domain concepts by developing mini-projects, training machine learning models, configuring database clusters, and building web/mobile prototypes inside our technical laboratories.</p>
+            <div class="demo-badge-note" style="margin-bottom: 1.5rem;">
+              <span>Illustrative Demo Facilities &amp; Learning Modules</span>
+            </div>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <a href="student-projects.html" class="btn btn-primary">Explore Demo Student Projects</a>
+              <a href="admissions.html#enquiry-form" class="btn btn-secondary">Submit Admission Enquiry</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" aria-label="MCA College Website">
+            <div class="brand-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3L2 8l10 5 10-5-10-5z"/>
+                <path d="M6 10.5v5.5c0 1.8 2.7 3.5 6 3.5s6-1.7 6-3.5v-5.5"/>
+                <path d="M22 8v6"/>
+                <circle cx="12" cy="8" r="1.2" fill="#DDF4FF" stroke="none"/>
+              </svg>
+            </div>
+            <div class="brand-text-wrap">
+              <span class="brand-title">MCA COLLEGE WEBSITE</span>
+              <span class="brand-subtitle">Technology Education Demo</span>
+            </div>
+          </a>
+          <p class="footer-desc">A modern, technology-focused Master of Computer Applications (MCA) educational website demonstration highlighting computer science education, programming, software development, and campus facilities.</p>
+          <div class="social-decorative-list" aria-label="Decorative Social Icons (Demo Only)">
+            <span class="social-deco-icon" title="Decorative Icon Only"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></span>
+            <span class="social-deco-icon" title="Decorative Icon Only"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></span>
+            <span class="social-deco-icon" title="Decorative Icon Only"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></span>
+            <span class="social-deco-icon" title="Decorative Icon Only"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg></span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Academic Links</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="mca-program.html">MCA Program</a></li>
+            <li><a href="specializations.html">Specializations</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Campus &amp; Careers</h4>
+          <ul class="footer-links">
+            <li><a href="placements.html">Placements</a></li>
+            <li><a href="student-projects.html">Student Projects</a></li>
+            <li><a href="campus-life.html">Campus Life</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Information (Demo)</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>Phone: 0000000000</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>Email: <a href="mailto:demo@example.com">demo@example.com</a></span>
+            </div>
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Address: Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana – 000000.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer-box">
+        <strong>Disclaimer:</strong> This is a fictional educational website demonstration. All institutional details, academic information, statistics, faculty profiles, student testimonials, placement information, and campus facilities are illustrative and do not represent an actual educational institution.
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 MCA College Website. Demo Website – All Rights Reserved.</span>
+        <span>Built with HTML5, CSS3 &amp; Vanilla JavaScript</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive Demo Feature Modal -->
+  <div class="demo-info-modal" id="demoInfoModal" aria-hidden="true" role="dialog" aria-labelledby="demoModalTitle">
+    <div class="demo-info-dialog">
+      <div class="eyebrow" style="margin-bottom: 0.75rem;"><span class="eyebrow-dot"></span> Interactive Demo Preview</div>
+      <h3 id="demoModalTitle" style="margin-bottom: 0.65rem;">Demonstration Feature</h3>
+      <p id="demoModalBody" style="margin-bottom: 1.5rem;">This interactive feature is part of the MCA College Website demonstration template.</p>
+      <div style="display: flex; justify-content: flex-end; gap: 0.75rem;">
+        <button type="button" class="btn btn-primary btn-sm" id="demoModalClose">Close Preview</button>
+      </div>
+    </div>
+  </div>
+
+  <button class="back-to-top" id="backToTop" aria-label="Scroll back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
